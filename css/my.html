@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>個人網頁</h1>
+<p>姓名 : 陳稜瑾</p>
+<p>性別 : 女</p>
+<p>出生日期 : 2003/12/08</p>
+<p>國籍 : 臺灣</p>
+<p>出生地區 : 臺南</p>
+<p>畢業學校 : 北門高中</p>
+<p>目前就讀學校 : 金門大學-資訊工程</p>
+<p>年級 : 大學一年級</p>
+<p>職業 : 學生</p>
+<p>學號 : 111110554</p>
+<a href="https://www.facebook.com/profile.php?id=100006199963067">我的Facebook</a>
+<a href="https://www.instagram.com/jin_zero_chen/">我的IG</a>
+<br/>
+<img src="jin.jpg" width="100" height="140"/>
+
+<br>
+
+<h2>自製註冊表單</h2>
+<form>
+    <fieldset style="width: 10cm;: top 10cm;">
+
+
+        <table>
+            <tr>
+                <label for="name">名稱</label><br>
+                <td><p><input type="text" placeholder="姓氏" /></p></td>
+                <td><p><input type="text" placeholder="名字"/></p></td>
+            </tr>
+
+        </table>    
+        
+        <br>
+
+        <table>
+            <tr>
+                <label for="account">帳號</label><br>
+                <td><p><input type="email" placeholder="email帳號"/></p></td>
+                <td><p><input type="text" placeholder="密碼"/></p></td>
+            </tr>
+        
+        </table>
+        
+        <br>
+
+       <table>
+        <tr>
+            <label for="phone number">電話</label><br>
+            <td><p><input type="text" placeholder="手機號碼"/></p></td>
+        </tr>
+       </table>
+
+       <br>
+        
+       <table>
+        <tr>
+            <lable for="other">其他</lable><br>
+            <td><p><input type="text" placeholder="血型"/></p></td>
+            <td><p><input type="text" placeholder="興趣"/></p></td>
+        </tr>
+       </table>
+
+       <br>
+
+        <label for="出生日期">出生日期</label><br>
+        <p><input type="date" placeholder="生日"/></p>
+    
+                
+        <p>性別<br>
+        <input type="radio" name="gender" value="male">男 
+        <input type="radio" name="gender" value="female">女
+        <input type="radio" name="gender" value="other">其他
+
+    </fieldset>
+    <form action="test.php" method="post">
+        <input type="submit" value="送出表單">
+        </form>
+    
+        
+</form>
+
+
+</body>
+</html>
