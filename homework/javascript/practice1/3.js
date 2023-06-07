@@ -7,7 +7,7 @@ function truthTable(n)
     {
       const row = [];
       
-      for (let j = 0; j < n; j++) 
+      for (let j = n-1; j>=0; j--) 
       {
        const value = (i >> j) & 1;
        row.push(value);
@@ -16,3 +16,7 @@ function truthTable(n)
     }
     return table;
   }
+  console.log("truthTable(0):", truthTable(0));
+  console.log("truthTable(1):", truthTable(1));
+  console.log("truthTable(2):", truthTable(2));
+  console.log("truthTable(3):", truthTable(3));
