@@ -9,4 +9,4 @@ function vadd(a,b)
 }
 
 let v1 = [1,2], v2=[1,1]
-console.log('vadd(v1,v2)=', vadd(v1,v2))
+console.log('vadd(v1, v2) =', vadd(v1, v2));
