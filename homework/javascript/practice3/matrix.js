@@ -1,17 +1,20 @@
-class Matrix
+function count(list) 
 {
-    constructor(arry)
+    const cmap = {};
+    for (let i = 0; i < list.length; i++) 
     {
-        this.m = arry
+      const word = list[i];
+      if (cmap[word] === undefined) 
+      {
+        cmap[word] = 1;
+      } 
+      else 
+      {
+        cmap[word] += 1;
+      }
     }
-
-    add(b)
-    {
-
-    }
-
-    mul(b)
-    {
-
-    }
+    return cmap;
 }
+const list = ['a', 'dog', 'chase', 'a', 'cat'];
+const cmap = count(list);
+console.log(cmap);
