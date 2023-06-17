@@ -17,7 +17,7 @@ function myFunction() {
   {
       '#home':
       `
-      <h1>首頁</h1>
+      <h1>陳稜瑾</h1>
       <p>歡迎來到我的小天地</p>
       <img src="jin.jpg" width="300" height="400"/>
       `
